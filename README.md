@@ -27,7 +27,14 @@ python3 -m pip install -r requirements.txt  # install python requirements
 git clone https://github.com/furbrain/CircuitPython_RM3100
 ```
 
-## Example script
+## Example scripts
+
+There are two measurement modes, single and continous. Example scripts for both cases are here.
+
+### Continous measurement mode
 
 An example script can be found in `test_continuous.py`
 
+### Single measurement mode
+
+An example script can be found in `test_single.py`
