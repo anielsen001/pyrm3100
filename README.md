@@ -16,8 +16,9 @@ I have a working python software version based on [CircuitPython_RM3100](https:/
 ## Set up python virtual environment
 
 ```bash
-python3 -m venv venv
-python3 -m pip install -r requirements.txt
+python3 -m venv venv      # create virtual environment
+source venv/bin/activate  # activate virtual environment
+python3 -m pip install -r requirements.txt  # install python requirements
 ```
 
 ## Get circuit-python repo for RM-3100
